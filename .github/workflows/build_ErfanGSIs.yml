@@ -9,8 +9,8 @@ jobs:
     types: [started]
     
 env:
-  ROM_URL: https://download.meizu.com/Firmware/Flyme/meizu17/8.20.12.22/cn_daily/20201222011319/2bd1965f/update.zip
-  ROM_NAME: Flyme
+  ROM_URL: https://sourceforge.net/projects/roms-for-xiaomi/files/Redmi-5A/Lineage-OS/lineage-16.0-20190718-UNOFFICIAL-riva.zip/download
+  ROM_NAME: ColorOS
     runs-on: ubuntu-latest
 
 
