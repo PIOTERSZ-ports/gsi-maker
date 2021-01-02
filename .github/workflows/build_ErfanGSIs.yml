@@ -1,17 +1,16 @@
 name: Building GSI..
 
 on:
-  watch:
+  TZ: Asia/Kolkata
+  MIR: wet
+  ZIP_NAME: Flyme
+jobs:
+  build: watch:
     types: [started]
     
 env:
   ROM_URL: https://download.meizu.com/Firmware/Flyme/meizu17/8.20.12.22/cn_daily/20201222011319/2bd1965f/update.zip
   ROM_NAME: Flyme
-  TZ: Asia/Kolkata
-  MIR: wet
-  ZIP_NAME: Flyme
-jobs:
-  build:
     runs-on: ubuntu-latest
 
 
@@ -26,7 +25,7 @@ jobs:
 
        
        - name: Clone ErfanGSI Source Code
-         run: git clone --recurse-submodules https://github.com/DeclanShao/ErfanGSIs.git  ErfanGSIs
+         run: git clone --recurse-submodules https://github.com/berkays0733/ErfanGSIs-VelanGSIs.git
        
        - name: Setting up ErfanGSI requirements
          run: |
