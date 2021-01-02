@@ -9,8 +9,8 @@ jobs:
     types: [started]
     
 env:
-  ROM_URL: https://sourceforge.net/projects/roms-for-xiaomi/files/Redmi-5A/Lineage-OS/lineage-16.0-20190718-UNOFFICIAL-riva.zip/download
-  ROM_NAME: ColorOS
+  ROM_URL: https://sourceforge.net/projects/xiaomi-eu-multilang-miui-roms/files/xiaomi.eu/MIUI-STABLE-RELEASES/MIUIv11/xiaomi.eu_multi_HM5A_V11.0.6.0.OCKCNXM_v11-8.1.zip/download
+  ROM_NAME: MIUI
     runs-on: ubuntu-latest
 
 
